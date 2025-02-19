@@ -1,0 +1,409 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: messina-sans;
+    font-size: 2rem;
+    font-size: max(12px, min(22px, 2rem));
+    font-weight: 400;
+    letter-spacing: -.05em;
+    line-height: 1.35;
+}
+.disc-land-header{
+    display: flex;
+    top:0;
+    left: 0;
+    width:100%; 
+    height: 10rem;
+    /* background-color: #000000; */
+    color:#ffffff;
+    margin-top:-1%;
+    margin-left:-1%;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    z-index: 2;
+}
+.disc-land-header-light-logo{
+    /* opacity: 0; */
+    transition: opacity .5s ease-out;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    position:absolute;
+    display: block;
+    vertical-align: middle;
+    margin-left: -1rem;
+    margin-top: 3.5rem;
+}
+.discoverylogo{
+    width: 20%;
+    height: 20%;
+}
+.disc-land-header-navsection-start{
+    width:100%;
+    /* height:100%; */
+    display: flex;
+    margin-left: 35rem;
+    margin-top: 1rem;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    width:100%;
+    height:100%;
+    gap:2.5rem;
+}
+li{
+    font-size: 1rem;
+}
+button{
+    background-color: transparent;
+    color: #ffffff;
+    border: #ffffff solid 0.1rem;
+    width:3rem;
+    height: 3rem;
+    margin-top: -0.5rem;
+}
+
+/* Main */
+.disc-land-gallery-main{
+    /* display: flex; */
+    width:100%; 
+    height: 100%;
+    /* background-color: #000000; */
+    color:#ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative; 
+}
+.disc-land-gallery-main-galleryimage {
+    top:0;
+    left:0;
+    margin-top:-30%;
+    margin-left: -1rem;
+    width: 100vw;
+}
+.galleryimg{
+    width:79.5rem;
+    height: 50%;
+}
+h1{
+    margin-top: -35%;
+    margin-left: 40%;
+    font-style: italic;
+    font-weight:500;
+    font-size: 5rem;
+}
+
+.disc-land-gallery-main-cnt1{
+    display: flex;
+    margin-top: 10%;
+}
+.disc-land-gallery-main-cnt2{
+    display: flex;
+}
+
+.img2{
+    margin-left: -2.5%;
+    width:26.5rem;
+    height: 15rem;
+}
+.img3{
+    margin-left: -0.7rem;
+    width: 26.5rem;
+    height: 15rem;
+}.img4{
+    margin-left: 0rem;
+    width: 26.2rem;
+    height: 15rem;
+}
+.img5{
+    margin-left: -2.5%;
+    width:26.5rem;
+    height: 15rem;
+}
+.img6{
+    margin-left: -0.7rem;
+    width: 26.5rem;
+    height: 15rem;
+}.img7{
+    margin-left: 0rem;
+    width: 26.2rem;
+    height: 15rem;
+}
+h3{
+    margin-left: 9rem;
+}
+/* Footer */
+.disc-land-footer{
+    width:100%; 
+    height: 100%;
+    background-color: #000000;
+    color:#ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    margin-top: 7rem;
+}
+.disc-land-footer-logo{
+   margin-left: 1rem;
+}
+
+.disc-land-footerdown1{
+    margin-top: -5.5%;
+    margin-left: 30%;
+}
+
+.disc-land-footerdown2{
+    margin-top: -15.7%;
+    margin-left: 60%;
+}
+
+.disc-land-footerdown3{
+    margin-top: -12%;
+    margin-left: 80%;
+    
+}
+.disc-land-footerdown4{
+    margin-top: 5%;
+    display: flex;
+    gap: 62%;
+    margin-left: 1%;
+}
+.disc-land-footerdown1-1,
+.disc-land-footerdown1-4{
+    color: rgb(149, 148, 148);
+    font-weight: 80;
+    font-size: 1.2rem;
+}
+.disc-land-footerdown1-2,
+.disc-land-footerdown1-3,
+.disc-land-footerdown1-5{
+    font-weight: 500;
+    margin-top: -1rem;
+}
+.disc-land-footerdown1-3{
+    margin-top: -2rem;
+    text-decoration-line: underline;
+}
+.disc-land-footerdown1-5{
+    text-decoration-line: underline;
+}
+.disc-land-footerdown2-1,
+.disc-land-footerdown2-2,
+.disc-land-footerdown2-3,
+.disc-land-footerdown2-4{
+    font-weight: 500;
+    margin-top: -1.5rem;
+}
+.disc-land-footerdown3-1,
+.disc-land-footerdown3-2,
+.disc-land-footerdown3-3,
+.disc-land-footerdown3-4,
+.disc-land-footerdown3-5{
+    font-weight: 500;
+    margin-top: -1.5rem; 
+}
+.disc-land-footerdown4{
+    color: rgb(149, 148, 148);;
+}
+
+
+/* Laptop (1024px)*/
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 1.8rem;
+    }
+
+    .disc-land-header {
+        height: 8rem;
+    }
+
+    .discoverylogo {
+        width: 25%;
+        height: 25%;
+    }
+
+    .disc-land-header-navsection-start {
+        margin-left: 20rem;
+    }
+
+    .galleryimg {
+        width: 60rem;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 4rem;
+        margin-left: 30%;
+    }
+
+    .img2, .img3, .img4, .img5, .img6, .img7 {
+        width: 22rem;
+        height: 12rem;
+    }
+
+    .disc-land-footerdown1, 
+    .disc-land-footerdown2, 
+    .disc-land-footerdown3 {
+        margin-left: 10%;
+    }
+} 
+
+/* Tablet (768px) */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    /* .disc-land-header {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    } */
+
+    .discoverylogo {
+        width: 30%;
+        height: auto;
+        margin-left: 2rem;
+    }
+
+    .disc-land-header-navsection-start {
+        margin-left: 10rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 1rem;
+        margin-left: 1000rem;
+    }
+
+    .galleryimg {
+        width: 106%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        margin-left: 40%;
+        margin-top: -30%;
+    }
+
+    .disc-land-gallery-main-cnt1, 
+    .disc-land-gallery-main-cnt2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img2, .img3, .img4, .img5, .img6, .img7 {
+        width: 52.9rem;
+        height: 20rem;
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    h3 {
+        margin-left: 45%;
+    }
+    .disc-land-footer {
+        text-align: center;
+    }
+
+    .disc-land-footerdown1, 
+    .disc-land-footerdown2, 
+    .disc-land-footerdown3 {
+        margin-left: 5%;
+        margin-top: 5rem;
+    }
+
+    .disc-land-footerdown4 {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+}
+
+/* Mobile (480px and 320px) */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    .disc-land-header {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .discoverylogo {
+        width: 50%;
+        height: auto;
+    }
+
+    .disc-land-header-navsection-start {
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .galleryimg {
+        margin-top: -13rem;
+        width: 120%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin-left: 10%;
+        text-align: center;
+    }
+
+    .disc-land-gallery-main-cnt1, 
+    .disc-land-gallery-main-cnt2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img2, .img3, .img4, .img5, .img6, .img7 {
+        width: 130%;
+        height: 80vw;
+        margin-left: -1rem;
+        margin-top: -0.5rem;
+    }
+    h3{
+        margin-left: 8rem;
+    }
+
+    .disc-land-footer {
+        text-align: center;
+    }
+
+    .disc-land-footerdown1, 
+    .disc-land-footerdown2, 
+    .disc-land-footerdown3 {
+        margin-left: 0;
+        margin-top: 5rem;
+    }
+
+    .disc-land-footerdown4 {
+        flex-direction: column;
+        gap: 0rem;
+        text-align: center;
+    }
+}
